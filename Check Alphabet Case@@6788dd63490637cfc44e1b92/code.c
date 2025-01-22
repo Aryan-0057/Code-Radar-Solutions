@@ -9,5 +9,8 @@ int main() {
     else if (num>=97 && num<=122){
         printf("Lowercase");
     }
+    else{
+        printf("Not an alphabet")
+    }
     return 0;
 }
