@@ -11,11 +11,10 @@ int main() {
         else{
             printf("*");
             for (int a=0;a<n-2;a++){
-                printf(' ');
+                printf(" ");
             }
             printf("*");
         }
     }
-    printf("%s", welcome());
     return 0;
 }
