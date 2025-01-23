@@ -10,7 +10,7 @@ int main() {
         }
         else{
             printf("*");
-            for (int a=0;a<n-2){
+            for (int a=0;a<n-2;a++){
                 printf(' ');
             }
             printf("*");
