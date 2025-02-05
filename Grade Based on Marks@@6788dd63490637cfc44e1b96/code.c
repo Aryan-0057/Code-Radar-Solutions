@@ -7,6 +7,5 @@ int main() {
     else if (a>=70) printf("C");
     else if (a>=60) printf("D");
     else printf("F");
-    printf("%s", welcome());
     return 0;
 }
