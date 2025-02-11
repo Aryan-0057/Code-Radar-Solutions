@@ -9,7 +9,7 @@ int main() {
                 printf(" ");
             }
             else{
-                printf("* ");
+                printf("**");
             }
         }
         printf("\n");
@@ -20,7 +20,7 @@ int main() {
                 printf(" ");
             }
             else{
-                printf("* ");
+                printf("**");
             }
         }
         printf("\n");
