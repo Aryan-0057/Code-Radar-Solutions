@@ -9,7 +9,7 @@ int main(){
                 printf(" ");
             }
             else{
-                printf("%d ",num-j);
+                printf("%d ",num-j+1);
             }
         }
         printf("\n");
