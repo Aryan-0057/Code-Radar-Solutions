@@ -11,8 +11,8 @@ int main(){
             }
             else{
                 printf("%d ",n);
+                n++;
             }
-            n++;
         }
         printf("\n");
     }
