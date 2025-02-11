@@ -2,14 +2,15 @@
 int main() {
     int n;
     scanf("%d",&n);
-    for(int i=0;i<=n;i++){
-        for (int j=0;j=n-i;j++){
-            printf(" ");
+    for(int i=n;i<=0;i++){
+        for (int j=0; j<=n; j++){
+            if (j<i){
+                printf(" ");
+            }
+            else{
+                printf("*");
+            }
         }
-        for (int a=0;a<=i;a++){
-            printf("*");
-        }
-        printf("\n");
     }
     return 0;
 }
