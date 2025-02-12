@@ -5,10 +5,10 @@ int main(){
     scanf("%d",&num);
     for (int i=1; i<=num; i++){
         if (i%2==1){
-            n = 0;
+            n = 1;
         }
         else{
-            n = 1;
+            n = 0;
         }
         for (int j=1; j<=i; j++){
             if (n == 1){
