@@ -9,7 +9,7 @@ int main(){
     if (op == '+') printf("%d",(n1+n2));
     else if (op == '-') printf("%d",(n1-n2));
     else if (op == '*') printf("%d",(n1*n2));
-    else if (op == '/') printf("%d",(n1/n2)); break;
+    else if (op == '/') printf("%d",(n1/n2));
     else printf("Invalid");
     return 0;
 }
