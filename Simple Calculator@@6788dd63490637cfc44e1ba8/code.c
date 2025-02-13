@@ -11,6 +11,5 @@ int main(){
     else if (op == '*') printf("%d",(n1*n2));
     else if (op == '/') printf("%d",(n1/n2)); break;
     else printf("Invalid");
-    }
     return 0;
 }
