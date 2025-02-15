@@ -8,8 +8,8 @@ int main(){
         }
         for (int a=1; a<(2*num-1);a++) printf("*");
     }
-    for (int i=1; i<=num; i++){
-        for (int j=num-1; j>=1; j--){
+    for (int i=num-1; i>=1; i--){
+        for (int j=num; j>=i; j--){
             printf(' ');
         }
         for (int a=1; a<(2*num-1);a++) printf("*");
